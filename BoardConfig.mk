@@ -74,6 +74,10 @@ TARGET_USERIMAGES_USE_F2FS := true
 
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 
+# Recovery
+TARGET_NO_RECOVERY := true
+BOARD_USES_RECOVERY_AS_BOOT := true
+
 # Workaround for error copying vendor files to recovery ramdisk
 TARGET_COPY_OUT_VENDOR := vendor
 
